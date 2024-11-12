@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+</head>
+<body bgcolor="lightblue">
+    <form>
+        <table align="center">
+            <caption align="left">Registration form</caption>
+            <tr>
+                <td> 
+                    <label for="fname">First Name</label><br>
+                    <input type="text" name="fname" id="fname" placeholder="enter your name">
+                </td>
+                <td>
+                    <label for="lname">Last Name</label> <br>
+                    <input type="text" name="line" id="lname">
+                </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="bday">Birthday</label> <br>
+                <input type="date" name="bday" id="bday">
+              </td>
+              <td>
+               <label for="male">Gender</label><br>
+               <input type="radio" name="gender" id="4" value="Male">
+               <label>male</label> 
+               <input type="radio" name="gender" id="female" value="female">
+               <label>female</label> 
+              </td>
+            </tr>
+             <tr>
+                <td>
+                    <label for="email">Email</label> <br>
+                    <input type="email" name="" id="email" >
+                </td>
+                <td>
+                    <label for="6">Phone Number</label> <br>
+                    <input type="tel" name="phone" id="6">
+                </td>
+
+             </tr>
+            <tr>
+                <td colspan="2">
+                <label for="">Subject</label> <br>
+                <select name="subject" id="subject"> 
+                  <option value="choose subject">choose subject</option>
+                  <option value="HTML">HTML</option>
+                  <option value="JAVA">JAVA</option>
+                  <option value="CSS">CSS</option>
+                  <option value="JAVASCRIPT">JAVASCRIPT</option>
+                  <option value="BOOTSTRAP">BOOTSTRAP</option>
+                  <option value="SQL">SQL</option>
+                </select>
+              </td>
+
+            </tr>
+            <tr>
+              <td>  
+                <input type="submit" name="submit" id="submit" value="submit">
+                </td>
+                <td>
+                    <input type="reset" name="clear" id="clear" value="reset" >
+                </td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+</html>
